@@ -5,7 +5,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.gridspec as gridspec
 
 dr = 0.1
-dt = 0.5
+dt = 0.5  #dt = 0.002（穩定）
 K = 0.1
 alpha = 1 / (4 * K)
 r = np.arange(0.5, 1.0 + dr, dr)
